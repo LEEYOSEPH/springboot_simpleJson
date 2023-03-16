@@ -1,0 +1,638 @@
+{
+    "title" : "",
+    "basicDate" : ["20221001", "20221002", "20221003", "20221004", "20221005", "20221006", "20221007", "20221008", "20221009", "20221010", "20221011", "20221012","20221013","20221014","20221015","20221016","20221017","20221018","20221019","20221020","20221021","20221022","20221023","20221024","20221025","20221026","20221027",
+    "20221028","20221029","20221030","20221031","20221101","20221102","20221103","20221103","20221104","20221105","20221106","20221107","20221108","20221109","20221110","20221111","20221112","20221113","20221114","20221115","20221116","20221117","20221118","20221119",
+    "20221120","20221121","20221122","20221123","20221124","20221125","20221126","20221127","20221128","20221129","20221130"],
+    "series" : [
+        {"name": "딸기", "data": [130,201,300,420,540,230,1203,403,10,100,110,110,110,41,61,11,21,33,55,66,76,8,9,22,63,74,23,150,233,433,231,123,44,1232,1123,432,11,6543,124,32,342,1235,6456,3333,2122,1335,6775,2332,222,333,444,555,666,777,888,999,123,232,414,242,1232,1232]},
+        {"name": "사과", "data": [100,200,300,400,500,600,700,800,900,100,101,101,101,110,110,110,110,130,150,160,160,100,400,500,600,700,800,1000,1203,2033,210,2222,1232,4104,123,554,777,888,666,555,444,333,222,1234,5442,1232,111,4433,2345,6665,3343,2221,2231,2321,1234,2345,222,333,444,555,666,777]}
+    ],
+    "yAxisTitle" : "",
+
+    "tooltip" : 
+        {
+            "headerFormat" : "<b>{series.name}</b><br/>",
+            "pointFormat" : "날짜 = {point.x}, 판매수량 = {point.y}"
+        },
+    "cloumnDefs" : [
+        {"field": "날짜"},
+        {"field": "노출수 "},
+        {"field": "클릭수 "},
+        {"field": "전환수 "},
+        {"field": "광고비 "},
+        {"field": "판매 수량"},
+        {"field": "직접 판매 금액"},
+        {"field": "간접 판매 금액"}
+    ],
+    "rowData" : [
+        { 
+            "basicDate" : "20221001",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "1111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221002",
+            "impCnt": "234",
+            "clickCnt": "4222",
+            "convCnt": "1234",
+            "adspend": "111",
+            "sellCnt": "13",
+            "directSellCost": "12422",
+            "indirSellCost": "23223"
+          },
+          { 
+            "basicDate" : "20221003",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221004",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221005",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221006",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221007",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221008",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221009",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221010",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221011",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221012",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221013",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221014",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221015",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221016",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221017",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221018",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221019",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221020",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221021",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221022",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221023",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221024",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221025",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },{ 
+            "basicDate" : "20221026",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221027",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221028",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221029",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221030",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221031",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221101",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221102",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221103",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221104",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221105",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221106",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221107",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221108",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221109",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221110",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221111",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221112",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221113",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221114",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221115",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221116",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221117",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221118",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221119",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221120",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221121",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221122",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221123",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221124",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221125",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221126",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221127",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221128",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221129",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          },
+          { 
+            "basicDate" : "20221130",
+            "impCnt": "2324",
+            "clickCnt": "2222",
+            "convCnt": "11234",
+            "adspend": "11111111",
+            "sellCnt": "123",
+            "directSellCost": "1422",
+            "indirSellCost": "2323"
+          }
+    ]
+}
